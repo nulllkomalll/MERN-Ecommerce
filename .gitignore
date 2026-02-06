@@ -1,0 +1,26 @@
+# Ignore all node_modules in any subfolder
+node_modules/
+**/node_modules/
+
+# Ignore environment variables in any subfolder
+.env
+**/.env
+.env.local
+**/.env.*
+
+# Ignore build/dist folders (production files)
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# System/Editor files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
